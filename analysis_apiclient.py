@@ -378,7 +378,9 @@ def purge_none(d):
     """
     Purge None entries from a dictionary
     """
-    for k in d.keys():
+    #NOTE: Fixed to support python3
+    #for k in d.keys():
+    for k in list(d):
         if d[k] is None:
             del d[k]
     return d
