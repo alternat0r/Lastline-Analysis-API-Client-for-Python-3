@@ -7,3 +7,7 @@ This is a dirty fix for Lastline Analysis API Client to support Python 3 environ
 
 ## Disclaimer
 I do not own this code. The code has been modified to support Python 3 environment for my current developement. Use at your own risk.
+
+## References
+1. https://www.lastline.com/labsblog/lastline-its-as-easy-as-a-p-i/
+2. https://analysis.lastline.com/analyst-api-docs/llapi_client/analysis_apiclient.py
